@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <title>Portifólio</title>
+</head>
+
+<body>
+    <header class="tm-site-header bg-dark">
+        <div class="header-content d-flex justify-content-between align-items-center px-3">
+            <h1 class="tm-mt-0 tm-mb-15 mb-0">
+                <span class="text-light">Eychila Meirelle</span>
+                <span class="text-primary">Portifólio</span>
+            </h1>
+
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobreMim">Sobre Mim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projetos">Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contatos">Contatos</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div id="tm-video-container"
+        style="position: relative; width: 100vw; height: 80vh; overflow: hidden; margin: 0; padding: 0;">
+        <video autoplay muted loop id="tm-video"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+            <source src="videocodigos.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <section id="sobreMim" class="container mt-5 fullscreen-section ">
+        <div class="row align-items-center">
+
+            <div class="col-md-4 text-center">
+                <img src="Img/minhafoto.jpeg" alt="Minha Foto" class="img-fluid rounded-circle shadow"
+                    style="max-width: 245px;">
+            </div>
+            <div class="col-md-8">
+                <h2 class="mb-3">Sobre Mim</h2>
+                <p>
+
+                    Olá, me chamo Eychila Meirelle. Sou estudante de Análise e Desenvolvimento de Sistemas no turno da noite e estou em busca de uma oportunidade de estágio para aplicar e expandir meus conhecimentos na área de tecnologia. Sou apaixonada por inovações tecnológicas e estou sempre buscando aprender e me atualizar sobre as novas tendências do mercado. Meu objetivo é adquirir experiência prática que complemente minha formação acadêmica e me prepare para uma carreira de sucesso no mercado de TI. 
+            
+                </p>
+
+                <h3>Minhas Skills</h3>
+                <a href="#" class="btn btn-primary mt-3" title="HTML"><i class="fa-brands fa-html5"></i></a>
+                <a href="#" class="btn btn-primary mt-3" title="CSS"><i class="fa-brands fa-css3-alt"></i></a>
+                <a href="#" class="btn btn-primary mt-3" title="JAVASCRIPT"><i class="fa-brands fa-js"></i></a>
+                <a href="#" class="btn btn-primary mt-3" title="FIGMA"><i class="fa-brands fa-figma"></i></a>
+                <a href="#" class="btn btn-primary mt-3" title="REACT"><i class="fa-brands fa-react"></i></a>
+                <a href="#" class="btn btn-primary mt-3" title="BOOTSTRAP"><i class="fa-brands fa-bootstrap"></i></a>
+                <a href="#" class="btn btn-primary mt-3" title="JAVA"><i class="fa-brands fa-java"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <div id="projetos" class="container my-5 fullscreen-section">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="Img/Descubra Recife.png" alt="Descubra Recife">
+                    <div class="card-body">
+                        <h5 class="card-title">Descubra Recife</h5>
+                        <p class="card-text">Aplicativo mobile para divulgar eventos, pontos turísticos, igrejas e muito mais. Trazendo visibilidade e recursos financeiros para a cidade do Recife, mostrando o quanto podemos explorar lugares incríveis. </p>
+                        <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#modalDescubraRecife">Saiba
+                            mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modalDescubraRecife" tabindex="-1" role="dialog" aria-labelledby="modalDescubraRecifeLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalDescubraRecife">Descubra Recife</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img class="card-img-top" src="Img/Descubra Recife.png" alt="Descubra Recife">
+                            <p class="descricao">
+                                Participei da prototipação e idealização do projeto <span class="text-dark">"Descubra Recife"</span> no Squad 52
+                                da Residência Tecnológica, uma iniciativa que nasceu com o
+                                propósito de valorizar e
+                                impulsionar a cultura e o turismo em Recife/PE. O aplicativo "Descubra Recife" foi
+                                concebido como uma plataforma mobile para conectar turistas e moradores locais, buscando divulgar mais e mais a os pontos turísticos e a cultura.
+                                <br><br>
+                                Identificamos como principal a falta de informações sobre eventos culturais, acessibilidade, horários e etc. E isso traz invisibilidade cultural na cidade. Diante disso, pensamos em soluções tecnológicas
+                                que permitissem a inclusão digital, a geração de renda e a valorização cultural em um só
+                                lugar.
+                                <br><br>
+                                O app oferece funcionalidades como mapa interativo com pontos culturais,eventos recentes, venda de ingressos. Tudo isso pensado para transformar a cidade do Recife em um local bastante visitado, garantindo recursos para aqueles que mantêm viva a cultura. 
+                            </p>
+                        </div>
+                        <div class="btn-prototipo">
+                            <button class="btn btn-success"> <a
+                                    href="https://www.figma.com/proto/TT1nNCYLNhUcHY1zY7xTMt/Descubra-Recife?node-id=154-111&p=f&t=cK5kBIECchgkudKw-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=154%3A111"
+                                    style="text-decoration: none; color: white;">Protótipo</a></button>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="Img/Petid.png" alt="Pet Id">
+                    <div class="card-body">
+                        <h5 class="card-title">Pet Id</h5>
+                        <p class="card-text">Protótipo desenvolvido para projeto da faculdade, visando solucionar problemas para tutores de PET, com diversas funcionalidades, incluindo serviços com veterinários, localização de locais Pet Friendly e etc.</p>
+                        <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#modalpetid">Saiba
+                            mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modalpetid" tabindex="-1" role="dialog" aria-labelledby="modalpetid"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalpetid">Pet Id</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img class="card-img-top" src="Img/Petid.png" alt="Pet Id">
+                            <p class="descricao">
+                                Participei ativamente da prototipação e idealização da plataforma <span
+                                    class="text-dark">Pet Id</span> 
+                                    Participei da prototipação desse projeto, que busca ajudar tutores de Pet, unindo várias informações em um só lugar.
+
+                                <br><br>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="Img/DescubraPE.png" alt="Descubra PE">
+                    <div class="card-body">
+                        <h5 class="card-title">Descubra PE</h5>
+                        <p class="card-text">Um site desenvolvido para divulgar locais de Pernambuco, com mapas interativos e gamificação, podendo montar a sua própria trilha de locais. 
+                        </p>
+                        <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#modaldescubrape">Saiba
+                            mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modaldescubrape" tabindex="-1" role="dialog"
+                aria-labelledby="modaldescubrapeLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modaldescubrapeLabel">Descubra PE</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img class="card-img-top" src="Img/prototipodescubra.png" alt="descubrape">
+                            <p class="descricao">
+                                Participei do desenvolvimento do projeto <span class="text-dark">Descubra PE</span> que foi desenvolvido para a Residência Tecnológica o RiseUp, que nos desafiou a criar um projeto focado no FrontEnd que solucionasse problemas do turismo em PE. 
+                                <br><br>
+                                O Descubra PE, é um site que divulga locais turísticos de Pernambuco, buscand
+                                <br><br>
+                                <span class="text-dark">Perfil Personalizado:</span> No perfil personalizado terá o histórico de visitas e avaliações, e criação de listas personalizadas ("Travel Lists").
+                                <br><br>
+                                <span class="text-dark">Agenda de Eventos Culturais:</span> Possui calendário com festivais, feiras, shows, etc. E também, notificações via push para eventos próximos.
+                                <br><br>
+                                <span class="text-dark">Mapa cultural interativo:</span> O mapa tem integração com o Google Maps, visualização de pontos turísticos, eventos e estabelecimentos. 
+                                <br><br>
+                                <span class="text-dark">Gamificação:</span> A gamificação tem um sitema de Missões(ex.: visitar locais culturais), sistema de níveis com XP acumulado, rankeamento de usuários baseado na participação e muito mais.
+                                <br><br>
+                                Está sendo uma experiência muito boa, ter que cumprir esse desafio e praticando também e sempre aprendendo. 
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  
+
+    <section id="contatos" class="container my-5">
+        <h2 class="text-center mb-4">Entre em Contato</h2>
+        <form action="https://formspree.io/f/mgvkogaj" method="POST" class="mx-auto p-4"
+            style="max-width: 600px; background-color: #dee2e6; border-radius: 8px;">
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="nome" name="nome" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="mensagem" class="form-label">Mensagem</label>
+                <textarea class="form-control" id="mensagem" name="mensagem" rows="5" required
+                    style="resize: none;"></textarea>
+            </div>
+            <div class="d-grid">
+                <button type="submit" class="btn btn-success">Enviar</button>
+            </div>
+        </form>
+    </section>
+
+    <footer class="tm-site-footer bg-dark">
+        <p class="text-light">Copyright © 2025 Eychila Meirelle</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="all.min.js"></script>
+</body>
+
+</html>
